@@ -47,5 +47,8 @@ class TitleScene:
         pyxel.blt(0, 0, 1, 0, 0, 128, 128, 0)
 
         # テキストを描画する
-        pyxel.rect(30, 97, 67, 11, 0)
-        pyxel.text(34, 100, "PRESS ENTER KEY", 7)
+        # rect(x, y, w, h, col)で矩形を描画する
+        # text(x, y, s, col)でテキストを描画する
+        # x, yは描画する位置の座標、w, hは矩形の幅と高さ、colは色番号、sは描画する文字列
+        pyxel.rect(0, 97, 140, 11, 0)
+        pyxel.text(3, 100, "PRESS ENTER AND PLEASE KARIKARI", 7)

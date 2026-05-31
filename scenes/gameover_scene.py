@@ -52,4 +52,4 @@ class GameOverScene:
         # テキストを描画する
         pyxel.rect(6, 49, 116, 30, 0)
         pyxel.rectb(6, 49, 116, 30, 7)
-        pyxel.text(47, 62, "GAME OVER", 7)
+        pyxel.text(25, 62, "-ITAI NYAAAAAAAAN-", 7)
