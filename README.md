@@ -1,1 +1,0 @@
-# mito-s-nyannyan-adventure
